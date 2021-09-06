@@ -46,12 +46,9 @@ async function createPDF(data: TemplateData) {
 
   const pdfPath = join("resources", `${data.id}-${milis}.pdf`);
 
-  const options = {
-    // format: 'a4',
-    // width: "1230px",
-    // headerTemplate: "<p></p>",
-    // footerTemplate: "<p></p>",
-    // displayHeaderFooter: false,
+  const options: any = {
+    format: 'a4',
+    width: "1230px",
     margin: {
       top: "30px",
       bottom: "30px",

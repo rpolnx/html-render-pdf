@@ -12,3 +12,4 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 dist/
+*.pdf
